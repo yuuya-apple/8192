@@ -55,10 +55,6 @@ export function Main({ setIsSuccess }) {
     setIsSuccess(true);
   }
 
-  console.log(successCount);
-
-  console.log(answer);
-
   return (
     <div css={whole}>
       <div css={header}>
