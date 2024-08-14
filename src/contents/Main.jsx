@@ -56,8 +56,6 @@ export function Main({ setIsSuccess }) {
     }
   };
 
-  console.log(answer);
-
   return (
     <div css={whole}>
       <div css={header}>
