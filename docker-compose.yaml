@@ -1,0 +1,9 @@
+version: "3"
+services:
+  frontend:
+    build: .
+    volumes:
+      - .:/app
+    command: ash -c "npm install && npm start"
+    ports:
+      - "3000:3000"
