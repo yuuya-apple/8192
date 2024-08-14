@@ -49,12 +49,15 @@ export function Main({ setIsSuccess }) {
       setSuccessCount(0);
     }
     setTryCount(tryCount + 1);
-
-    if (successCount === 12) {
-      console.log("success");
-      setIsSuccess(true);
-    }
   };
+
+  if (successCount === 13) {
+    setIsSuccess(true);
+  }
+
+  console.log(successCount);
+
+  console.log(answer);
 
   return (
     <div css={whole}>
